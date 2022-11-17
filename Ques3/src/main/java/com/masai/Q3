@@ -1,0 +1,4 @@
+Q2/- Explain about IOC and Dependency Injection.
+
+==> Dependency Injection is the method of providing the dependencies and Inversion of Control is the end result of Dependency Injection.
+	IoC is a design principle where the control flow of the program is inverted. Dependency Injection is one of the subtypes of the IoC principle.
