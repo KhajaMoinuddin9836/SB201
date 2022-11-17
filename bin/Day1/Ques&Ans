@@ -1,0 +1,58 @@
+
+
+Q2. When should one use Maven?
+
+==> Maven is used for Java-based projects, helping to download dependencies, which refers to the
+	libraries or JAR files.
+
+--------------------------------------------------------------------->	
+	
+Q3. Explain the core concepts of Maven.
+
+==> Each Maven project provides a pom.xml file that captures dependencies, project structure properties
+	build phase tasks behavior
+
+------------------------------------------------------------------------->
+
+Q4. Explain about the basic properties of pom.xml file.
+
+==> Maven properties are value placeholders, like properties in Ant. Their
+	values are accessible anywhere within a POM by using the notation $(X), where
+	X is the property, or they can be used by plugins as default values.
+	
+-------------------------------------------------------------------->
+
+Q5. What are the different phases of the default life cycle?
+
+==> This commands executes each default lifecycle phase in order (Validate, compile, package, etc.)
+	before executing verify. You only need to call the last build phase to be executed, in this case, verify.
+	
+---------------------------------------------------------------------->
+
+Q6.What are the different types of Maven repositories?
+
+==> There are 3 types of repositories.
+
+	1. Local Repository.
+	2. Central Repository.
+	3. Remote Repository.
+	
+---------------------------------------------------------------------------->
+
+Q7. Explain what a Primary key, Candidate Key, Prime Attributes, and Non-prime Attributes is.
+
+==> Primary Key:- A Primary key is the column or columns that contain values that uniquely identify each row in a table.
+
+	Candidate Key:- Candidate key is a single key or a group of multiple keys that uniquely identify rows in a table.
+	
+	Prime Attributes:- An attribute which is a part of the prime-key, is knoen as prime attribute.
+	
+	Non-prime Attribute:- An attribute which is not a part of prime-key, is said to be No-prime attribute.
+	
+-------------------------------------------------------------------------------------->
+
+Q8. What are the rules for a table to be in 1NF, 2NF, and 3NF?
+
+==> A relation is in 1NF if it is contains an atomic value. A relation will be in 2NF if it is in 1NF and all non-key
+	attributes are fully functional dependent on the primary key. A relation will be in 3Nf if it is in 3NF and no transition
+	dependency exists.

@@ -1,0 +1,16 @@
+
+
+Q1/- What are the limitations of EntityManager methods to perform CRUD operations with DB?
+
+==> EntityManager is a part of the java persistence API. it implements the programming interfaces
+	and lifecycle rules defined by the JPA specification.
+	
+	CRUD overview:-
+	
+	1. Create: insert a new record in the database with a new, unique primary key.
+	
+	2. Retrieve: Pull a record from the database based on a unique property such as the primary key.
+	
+	3. Update: change the properties of a database record that already exists.
+	
+	4. Delete: remove a record from the database permanently.  
